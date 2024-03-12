@@ -12,24 +12,24 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME","Ditto_999")
+OWNER_USERNAME = getenv("OWNER_USERNAME","dst_madara")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "@DITTO_MUSIC_8")
+BOT_USERNAME = getenv("BOT_USERNAME" , "@Kiyotaka_ayanokoji_probot")
 # Don't Add style font 
 BOT_NAME = getenv("BOT_NAME" , ".")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME" , "@DITTO_MUSIC_8")
-EVALOP = list(map(int, getenv("EVALOP", "6731047041").split()))
+ASSUSERNAME = getenv("ASSUSERNAME" , "@Kiyotaka_ayanokoji_probot")
+EVALOP = list(map(int, getenv("EVALOP", "6070538973").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002088721622))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002055419409))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6731047041))
+OWNER_ID = int(getenv("OWNER_ID", 6070538973))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,15 +39,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/PATAALhu/DITTO-X-MUSIC",
+    "https://github.com/MADARA1188/AYANOKOJI",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PATAAL_NAGRI")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TEAM_CDX")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AYANOKOJI_SUPPORT")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TEAM_DST")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
@@ -121,10 +121,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/3e24c27cc229e3a944099.jpg"
+    "START_IMG_URL", "https://te.legra.ph/file/66d5cf0f8ffc531aa1915.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/3e24c27cc229e3a944099.jpg"
+    "PING_IMG_URL", "https://te.legra.ph/file/66d5cf0f8ffc531aa1915.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/3e24c27cc229e3a944099.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/3e24c27cc229e3a944099.jpg"
