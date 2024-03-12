@@ -51,9 +51,9 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("CDX_WORLD")
+                await self.one.join_chat("Animes_in_hindi_request_group")
               
-                await self.one.join_chat("TEAM_CDX")
+                await self.one.join_chat("TEAM_DST")
             except:
                 pass
             assistants.append(1)
@@ -74,9 +74,9 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("CDX_WORLD")
+                await self.two.join_chat("Animes_in_hindi_request_group")
                 
-                await self.one.join_chat("TEAM_CDX")
+                await self.one.join_chat("TEAM_DST")
             except:
                 pass
             assistants.append(2)
@@ -96,9 +96,9 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("CDX_WORLD")
+                await self.three.join_chat("Animes_in_hindi_request_group")
                 
-                await self.one.join_chat("TEAM_CDX")
+                await self.one.join_chat("TEAM_DST")
             except:
                 pass
             assistants.append(3)
@@ -118,9 +118,9 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("CDX_WORLD")
+                await self.four.join_chat("Animes_in_hindi_request_group")
                 
-                await self.one.join_chat("TEAM_CDX")
+                await self.one.join_chat("TEAM_DST")
             except:
                 pass
             assistants.append(4)
@@ -140,9 +140,9 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("PATAAL_NAGRI")
+                await self.five.join_chat("TEAM_DST")
                 
-                await self.one.join_chat("Ditto_999")
+                await self.one.join_chat("DST_MADARA")
             except:
                 pass
             assistants.append(5)
