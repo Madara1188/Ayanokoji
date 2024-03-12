@@ -4,7 +4,7 @@
 
 
 
-<p align="center"><a href="https://t.me/Ditto_999"><img src="https://te.legra.ph/file/66d5cf0f8ffc531aa1915.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/DST_MADARA"><img src="https://te.legra.ph/file/66d5cf0f8ffc531aa1915.jpg" width="400"></a></p>
 
 
 
